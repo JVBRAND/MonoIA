@@ -6,10 +6,10 @@ O MonoIA é um chatbot de atendimento ao cliente desenvolvido para simular o sup
 
 ## 👥 Participantes
 
-| João Victor Brandão | 2359197 |
-| Victor Borges Quintella | 2544963 |
-| Kathleen Aquino | 2364196 |
-| Lucas Costa Pereira | 2361186 |
+- **João Victor Brandão** — RA: 2359197
+- **Victor Borges Quintella** — RA: 2544963
+- **Kathleen Aquino** — RA: 2364196
+- **Lucas Costa Pereira** — RA: 2361186
 
 **Disciplina:** Inteligência Artificial
 
@@ -39,13 +39,3 @@ O MonoIA é um chatbot de atendimento ao cliente desenvolvido para simular o sup
 ---
 
 ## 🗂️ Estrutura do Projeto
-
-MonoIA
-├── app.py          # Rotas e lógica principal do chatbot
-├── crud.py         # Operações com o banco de dados
-├── database.py     # Criação e população do banco
-├── clientes.db     # Banco de dados SQLite
-├── index.html      # Interface do usuário
-├── perguntas.csv   # Base de perguntas por categoria
-└── respostas.json  # Base de respostas por categoria
-```
