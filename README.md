@@ -39,3 +39,12 @@ O MonoIA é um chatbot de atendimento ao cliente desenvolvido para simular o sup
 ---
 
 ## 🗂️ Estrutura do Projeto
+
+MonoIA/
+├── app.py          # Servidor Flask — rotas e lógica de classificação de intenção
+├── crud.py         # Funções de acesso ao banco (Create, Read, Update, Delete)
+├── database.py     # Script de criação e seed do banco de dados
+├── clientes.db     # Banco de dados SQLite (gerado pelo database.py)
+├── index.html      # Interface do chatbot (front-end)
+├── respostas.json  # Respostas padrão por categoria (referência)
+└── perguntas.csv   # Base de perguntas para testes
